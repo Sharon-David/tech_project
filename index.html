@@ -2,32 +2,45 @@
   <head>
     <title>First Tech Project</title>
 <style>
+          p{
+            font-family: Arial;
+            padding-left: 750px;
+          }
+
+          .title{
+            padding-left: 810px;
+            padding-top: 20px;
+
+          }
             
           .a{
-            font-family: Arial;
+            
             font-size:15px ;
-            color: grey;
+            color: rgb(39, 16, 16);
             word-spacing: 5px;
+            
           }  
 
           .b{
-            font-family: Arial;
             font-size:16px ;
             color: rgb(37, 11, 11);
           }
 
+
           .c{
-            font-family: Arial;
             font-size:15px ;
             color: black;
             word-spacing: 2px;
           }
 
           .d{
-            font-family: Arial;
             font-size:15px ;
             color: black;
             word-spacing: 2px;
+          }
+
+          .e{
+            font-family: 'Times New Roman', Times, serif ;
           }
 
           button{
@@ -37,29 +50,66 @@
             height: 34px;
             width: 120px;
             border-radius: 2px;
-            margin-right: 20px;
+            
+            
           }
-          .hover:hover{
+
+          .w{
+          
+            margin-right: 60px;
+          }
+
+          .p{
+            margin-left: 950px;
+            margin-right: 10px;
+          }
+          .w:hover{
             background-color: rgb(171, 40, 40);
             cursor: pointer;
           }
+
+          .p:hover{
+            background-color: rgb(171, 40, 40);
+            cursor: pointer;
+            
+          }
+          .p:active{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+
+          a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+          }
+
+          a:visited {
+            color: rgb(113, 35, 35);
+            background-color: transparent;
+            text-decoration: none;
+          }
           body{
             background-image: url(ferrari.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
           }
 
         </style>
         </head>
         <body>
 
-        <h1> My First Github Project</h1>
+        <h1 class="title" font-family="Arial"> <u>FORD VS FERRARI</u>
+          
+        </h1>
 
         <p class="a">
             2h 32mins  &#8226;  5 years ago &#8226; 13+
         </p>
 
         <p class="b">
-            Carroll Shelby, an automotive designer, and Ken Miles, a race car driver,<br> 
-            join hands to build a trailblazing vehicle and compete against the Ferrari race cars.
+            Carroll Shelby, an automotive designer, <br>and Ken Miles, a race car driver,
+            join hands to build <br> a trailblazing vehicle and compete against the Ferrari race cars.
         </p>
 
         <p class="c">
@@ -75,14 +125,10 @@
             <strong>Genre:</strong> Drama, Action
         </p>
 
-        <button class="hover">Play Now</button>
+        <button class="p">Play Now</button>
        
 
-        <button>+Watch Later</button>
-
-        <a href="https://en.wikipedia.org/wiki/Ford_v_Ferrari" target="_blank">FORD</a>
-             VS <a href="https://en.wikipedia.org/wiki/Ford_v_Ferrari" target="_blank">FERRARI</a>
-        </a>
+        <button class="w">+Watch Later</button>
 
 </body>
 </html>
